@@ -1,0 +1,6 @@
+@function rem($px, $rootSize: 75) {
+    @return $px / $rootSize + rem;
+  };
+
+  $orange-color: rgb(255, 153, 51);
+  $green-color: rgb(51, 153, 51);
